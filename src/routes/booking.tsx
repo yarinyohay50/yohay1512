@@ -10,7 +10,7 @@ import { useState } from "react";
 import { CheckCircle2, ArrowLeft, ShieldAlert } from "lucide-react";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
-import { submitBooking } from "@/server/bookings.functions.server";
+import { submitBooking } from "@/api/bookings.server";
 import { useServerFn } from "@tanstack/react-start";
 
 export const Route = createFileRoute("/booking")({

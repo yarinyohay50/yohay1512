@@ -8,7 +8,7 @@ import { Loader2, Search } from "lucide-react";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
 import { useServerFn } from "@tanstack/react-start";
-import { lookupBooking } from "@/server/bookings.functions.server";
+import { lookupBooking } from "@/api/bookings.server";
 import { STATUS_LABELS } from "@/lib/military";
 import logo from "@/assets/logo.png";
 
