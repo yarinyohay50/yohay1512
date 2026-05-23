@@ -45,7 +45,7 @@ import {
   adminDeleteBooking,
   adminChangePassword,
   adminGetSheetUrl,
-} from "@/api/bookings.server";
+} from "@/api/bookings";
 import { STATUS_LABELS, type Booking, type BookingStatus } from "@/lib/military";
 
 
