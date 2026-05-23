@@ -65,7 +65,7 @@ async function checkPassword(password: string) {
     .eq("id", 1)
     .maybeSingle();
   const stored = row?.password_hash;
-  const expected = process.env.ADMIN_PASSWORD ?? "1512";
+    const expected = "1512";
   if (password !== expected) throw new Error("סיסמה שגויה");
 }
 
